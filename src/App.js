@@ -3,10 +3,7 @@ import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
 
-//  d354df56
-// the above is an API key
-// Google API KEY: AIzaSyDL-fkgH2VnMn9glxZDo_kx6dbpqWdDcms
-// const apikey = 'd354df56';
+
 
 const API_URL = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 
